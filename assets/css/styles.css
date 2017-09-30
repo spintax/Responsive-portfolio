@@ -1,0 +1,496 @@
+html {
+    margin: auto;
+}
+
+body {
+    width: 100%;
+    margin: auto;
+}
+
+header {
+    background: #FFFFFF;
+    height: 81px;
+    width: 100%;
+    top: 0;
+    margin: 0 0 30px 0;
+    position: static;
+    border-bottom: 5px solid #dddddd;
+}
+
+#Name {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    position: absolute;
+    background: #4aaaa5;
+    display: inline-block;
+    color: #FFFFFF;
+    width: 224px;
+    height: 56px;
+    top: 0;
+    right: 949px;
+    text-align: center;
+    font-size: 1.75em;
+    font-weight: bold;
+    padding-top: 25px;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 35px;
+    width: 300px;
+    position: relative;
+    display: block;
+    right: 200px;
+    float: right;
+}
+
+.topMenu {
+    display: inline;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.navbar {
+    text-decoration: none; 
+    color: #777777;
+}
+
+.panel {
+    top: 91px;
+    float: left;
+    padding-left: 100px;
+}
+
+#content {
+    background: #FFFFFF;
+    width: 650px;
+    margin: 0 80px 80px 76px; 
+    right: 61px;
+}
+
+form {
+    color: #dddddd;
+    width: 614px;
+    padding: 20px;
+}
+
+.eform {
+    width: 100%;
+    border-color: #dddddd;
+    border-style: solid;
+    resize: none;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif; 
+    position: relative;
+    float: left;
+    left: 18px;
+    margin: 20px 500px 15px 10px;
+    color: #4aaaa5;
+}
+
+#linebelow {
+    width: 614px;
+    height: 2px;
+    display: block;
+    position: relative;
+    float: left;
+    left: 17px;
+    border-style: none;
+    background-color: #dddddd;
+}
+
+table {
+    width: 100%;
+    padding: 20px;
+    padding-left:0px;
+}
+
+tbody {
+    padding:0px;
+}
+
+tr {
+    width:100%;
+    padding:20px;
+}
+/*images in rows and columns in table*/
+.cola {
+    /* width: 50%; */
+    float: left;
+    position: relative;
+    padding-left: 0px;
+}
+
+/*text caption over images */
+
+h2.imgcaptiona {
+    position: absolute;
+    /* top: 215px;
+    left: 10px;
+    width: 100%; */
+    top: 200px;
+    left: 0px;
+    width: 93%;
+    padding: 0px;
+    margin: 0px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    text-align: center;
+    border: 0px;
+    z-index: +1;
+}
+
+/*table row image*/
+img.td {
+    width: 280px;
+    height: 240px;
+    margin: 10px;
+}
+
+/* .projects { */
+    /* height: 800px; */
+    /* display: inline; */
+/* } */
+
+.grid {
+    display: inline;
+    padding: 10px 10px 10px 10px;
+}
+
+.folio {
+    padding: 15px 20px 20px 3px;
+    display: inline;
+}
+
+.text {
+    display: inline;
+    position: absolute;
+    background-color: #4aaaa5;
+    list-style-type: none;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    line-height: 3;
+}
+    
+#professional {
+    position: relative;
+    float: left;
+    left: 10px;
+    margin: 0 10px 10px 0;
+    padding: 10px;
+    height: auto; 
+    width: auto; 
+    max-width: 520px; 
+    max-height: 520px;
+}
+
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    padding: 20px;
+    margin-bottom: 0;
+    position: static;
+    margin-top: 0;
+}
+
+.sidelink {
+    background-color: #FFFFFF;
+    position: absolute;
+    left: 859px;
+    width: 270px;
+    padding-left: 0;
+    margin-top: 0;
+    top: 116px;
+}
+
+.connect {
+    font-family: 'Georgia', Times, Times New Roman, serif; 
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #4aaaa5;
+    list-style-type: none;
+    width: 250px;
+    position: center;
+    padding: 10px 0 10px 40px;
+}
+
+#boxline {
+    width: 250px;
+    height: 2px;
+    border-style: none;
+    background-color: #dddddd;
+}
+
+.boxlink {
+    list-style-type: none;
+    display: inline;
+}
+
+.linkbar {
+    text-decoration: none;
+}
+
+.icon {
+    height: 60px;
+    width: 60px;
+    padding: 5px;
+}
+
+    
+footer {
+    text-align: center;
+    height: 85px;
+    background: #666666;
+    width: 100%;
+    float: left;
+}
+
+#footercopy {
+    display: block;
+    position: relative;
+    text-align: center;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    margin-top: 0;
+    border-top: 10px solid #4aaaa5;
+}
+
+@media screen and (max-width: 980px) {
+    #Name {
+        top: 0px;
+        font-size: 25px;
+        padding-top: 20px;
+        padding-bottom: 17px;
+        height: 45px;
+        left: 90px;
+    }
+
+    body {
+        background-color: #333;
+      }
+
+    .panel {
+        width: 100%;
+        float: left;
+        padding-left: 0;
+    }
+
+    #content {
+        width: 50%;
+        margin: 0 40px 40px 90px;
+    }
+
+    p {
+        padding: 5px 20px 5px 20px;
+    }
+
+    .menu {
+        position: static;
+        height: 25px;
+        background-color: #ffffff;
+    }
+
+    h1 {
+        
+        width: 100%;
+    }
+
+    #linebelow {
+        width: 450px;
+    }
+
+    #professional {
+        width: 92%;
+        margin: auto;
+    }
+
+    .sidelink {
+        /* position: static; */
+        width: 270px;
+        margin: 0 40px 40px 40px;
+        top: 116px;
+        left: 603px;
+    }
+
+    .connect {
+        padding-top: 20px;
+    }
+
+    #boxline {
+        width: 250px;
+    }
+
+    form {
+        width: 450px;
+    }
+
+    .eform {
+        width: 450px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #Name {
+        top: 0px;
+        font-size: 25px;
+        padding-top: 20px;
+        padding-bottom: 17px;
+        height: 45px;
+        left: 40px;
+    }
+
+    body {
+        background-color: #333;
+      }
+
+    .panel {
+        width: 100%;
+        float: left;
+        padding-left: 0;
+    }
+
+    #content {
+        width: 688px;
+        margin: 0 40px 40px 40px;
+    }
+
+    p {
+        padding: 5px 20px 5px 20px;
+    }
+
+    .menu {
+        position: static;
+        height: 25px;
+        background-color: #ffffff;
+    }
+
+    h1 {
+        
+        width: 100%;
+    }
+
+    #linebelow {
+        width: 655px;
+    }
+
+    #professional {
+        width: 33%;
+    }
+
+    .sidelink {
+        position: static;
+        width: 688px;
+        margin: 0 40px 40px 40px;
+        top: 150px;
+    }
+
+    .connect {
+        padding-top: 20px;
+    }
+
+    #boxline {
+        width: 658px;
+    }
+
+    form {
+        width: 520px;
+    }
+
+    .eform {
+        width: 642px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    #Name {
+        top: 0px;
+        width: 100%;
+        font-size: 45px;
+        position: static;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        height: 45px;
+    }
+
+    body {
+        background-color: #333;
+      }
+
+    .panel {
+        width: 100%;
+        float: left;
+        padding-left: 0;
+    }
+
+    #content {
+        width: 560px;
+        margin: 0 40px 40px 40px;
+    }
+
+    p {
+        padding: 5px 20px 5px 20px;
+    }
+
+    .menu {
+        width: 100%;
+        position: static;
+        height: 25px;
+        background-color: #ffffff;
+        padding-top: 5px;
+        padding-left: 0;
+        text-align: center;
+        border-bottom: 2px solid #777777;
+        margin-bottom: 20px;
+    }
+
+    h1 {
+        /* position: static; */
+        width: 100%;
+    }
+
+    #linebelow {
+        width: 524px;
+    }
+
+    #professional {
+        width: 100%;
+        margin:  auto;
+    }
+
+    .sidelink {
+        position: static;
+        width: 560px;
+        margin: 0 40px 40px 40px;
+        top: 150px;
+    }
+
+    .connect {
+        padding-top: 20px;
+    }
+
+    #boxline {
+        width: 524px;
+    }
+
+    form {
+        width: 520px;
+    }
+
+    .eform {
+        width: 520px;
+    }
+}
+
+    
